@@ -4,6 +4,7 @@ if __name__ == '__main__':
 
     # RANDOM WHOLE NUMBERS
     #   random.randint(start,end)
+    random.randint(1, 100)
     #   Generates a random integer(whole number)
     #   start = lower bound of random number
     #   end = upper bound of random number
@@ -15,11 +16,12 @@ if __name__ == '__main__':
 
     # TODO Print out 5 random numbers between -50 and 5
     for i in range(5):
-
+        newNumber = random.randint(-50, 5)
         pass
 
     # RANDOM DECIMAL NUMBERS
     #   random.uniform(start,end)
+    random.uniform(1.5, 25.5)
     #   Generates a random floating(decimal) number
     #   start = lower bound of random number
     #   end = upper bound of random number
@@ -31,5 +33,6 @@ if __name__ == '__main__':
 
     # TODO Print out 5 random decimal numbers between -123.45 and 67.89
     for i in range(5):
+        number = random.uniform(-123.45, 67.89)
 
         pass
