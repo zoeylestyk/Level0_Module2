@@ -1,22 +1,25 @@
 # When you are done, this program will draw an ice cream cone with 
 #     scoops of ice cream, sprinkles, and a cherry on top.
 
-
 def setup():
 
     size(500,500)
      
     # Call the make_ice_cream_cone() function below to draw the cone for
     # your ice cream
+    make_ice_cream_cone()
 
     # Use the add_scoop() function below to add as many scoops of ice cream
     # as you want. Choose a different flavor for each scoop.
-
+    add_scoop("strawberry")
+    add_scoop("vanilla")
     # Use the add_sprinkle() function provided to add some sprinkles to your
     # ice cream.
+    add_sprinkle(80)
 
     # Write code to add a cherry to the top of your ice cream. Hint: ellipse
-
+    fill(255,28,20)
+    ellipse(250,125, 40, 40)
 
 
 # ==================== DO NOT MODIFY THE CODE BELOW ============================
